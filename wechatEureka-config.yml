@@ -1,0 +1,6 @@
+eureka:
+    client:
+        register-with-eureka: false
+        fetch-registry: false
+        service-url:
+            defaultZone: http://www.wechatEureka2.com:8081/eureka,http://www.wechatEureka3.com:8082/eureka
