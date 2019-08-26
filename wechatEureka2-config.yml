@@ -1,10 +1,10 @@
 spring:
-    application:
-        name: eureka-server
+  application:
+    name: eureka-server
 
 eureka:
-    client:
-        register-with-eureka: false
-        fetch-registry: false
-        service-url:
-            defaultZone: http://www.wechatEureka.com:8080/eureka,http://www.wechatEureka3.com:8083/eureka
+  client:
+    register-with-eureka: false
+      fetch-registry: false
+      service-url:
+        defaultZone: http://www.wechatEureka.com:8080/eureka,http://www.wechatEureka3.com:8083/eureka

@@ -1,13 +1,21 @@
 eureka:
-    client:
-        service-url:
-            defaultZone: http:www.wechatEureka.com/eureka
+  client:
+    service-url:
+      defaultZone: http:www.wechatEureka.com/eureka
 
 hystrix:
-    command:
-        circuitBreaker:
-            requestVolumeThreshold: 10
-            sleepWindowInMillseconds: 20000
+  command:
+    circuitBreaker:
+      requestVolumeThreshold: 10
+      sleepWindowInMillseconds: 20000
 feign:
   hystrix:
     enabled: true
+spring:
+  rabbitmq:
+    host: 47.98.188.13
+    port: 5672
+    username: cry
+    password: 6684526
+    virtual-host: /cry
+
