@@ -1,0 +1,11 @@
+eureka:
+    client:
+        service-url:
+            defaultZone: http:www.wechatEureka.com/eureka
+
+hystrix:
+    command:
+        circuitBreaker:
+            enabled: true
+            requestVolumeThreshold: 10
+            sleepWindowInMillseconds: 20000
